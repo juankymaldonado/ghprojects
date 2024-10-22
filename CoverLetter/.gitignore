@@ -1,0 +1,13 @@
+# Ignore MongoDB WiredTiger storage engine files
+*.wt
+*.wt.*
+
+# Ignore MongoDB diagnostic and log files
+diagnostic.data/
+mongod.lock
+mongod.pid
+
+node_modules
+mongo-db-data
+credentials.json
+.env
